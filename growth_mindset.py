@@ -105,29 +105,29 @@ if name:
  
                     # if st.warning:
                         # suggestion & resources
-                st.header("How to Adopt a Growth Mindset?")
-                st.write("""
+            st.header("How to Adopt a Growth Mindset?")
+            st.write("""
                 - Embrace challenges.
                 - Learn from mistakes.
                 - Believe in effort.
                 - Learn from others.  """)
 
                         
-                st.header("Benefits of a Growth Mindset")
-                st.write("The following graph shows the benefits of a Growth Mindset over time.")
+            st.header("Benefits of a Growth Mindset")
+            st.write("The following graph shows the benefits of a Growth Mindset over time.")
 
                     # tABLE
-                import pandas as pd
-                data = pd.DataFrame({
+            import pandas as pd
+             data = pd.DataFrame({
                 'Year': [2018, 2019, 2020, 2021, 2022],
                 'Success Rate (%)': [60, 65, 70, 75, 80]
                             })
 
                     # gharph
-                st.bar_chart(data.set_index('Year'))
+            st.bar_chart(data.set_index('Year'))
             
                     
-                st.write("Thank you for using the Growth Mindset Challenge App! 🚀")
+            st.write("Thank you for using the Growth Mindset Challenge App! 🚀")
 
     st.caption("Feedback")
     sentiment_mapping = ["one", "two", "three", "four", "five"]
