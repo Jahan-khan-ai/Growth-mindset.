@@ -43,7 +43,7 @@ if name:
 
         # Image
         
-        st.image("D:\st_project\960x1.jpg", caption="Fixed vs Growth Mindset")
+        # st.image("D:\st_project\960x1.jpg", caption="Fixed vs Growth Mindset")
 
 
         #video
