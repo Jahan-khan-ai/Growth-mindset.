@@ -51,8 +51,8 @@ if name:
         st.video("https://www.youtube.com/watch?v=5XjJdAM_PRs")
 
         #Audio
-        st.header("Listen to a Motivational Audio🎧")
-        st.audio ("d:\st_project\Fixed Mindset Vs Growth Mindset Examples In Hindi Urdu.mp3") #autoplay=True)
+        # st.header("Listen to a Motivational Audio🎧")
+        # st.audio ("d:\st_project\Fixed Mindset Vs Growth Mindset Examples In Hindi Urdu.mp3") #autoplay=True)
     
         # Interactive Quiz
         st.header("Test Your Mindset")
